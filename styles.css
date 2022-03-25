@@ -300,10 +300,31 @@ header {
     margin-bottom: 20px;
 }
 
+/*GALERIA DIVISORIA*/
 
+.galeria-divisoria{
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    
+}
 
+.container-galeria{
+    max-width: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+    display: flex;
 
+}
 
+.container-galeria img{
+    width: 25%;
+    flex-direction: row;
+    display: flex;
+
+}
 /*DOCENTES*/
 
 /*AQUI VAN LAS OPINIONES QUE TENES QUE HACER VALENTIN*/
