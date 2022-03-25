@@ -280,6 +280,7 @@ header {
     transform: scale(1.1);
     transition: transform 0.6s;
     border: 1px solid rgb(168, 168, 168);
+    
 }
 .cursos-card img {
     max-width: 200px;
