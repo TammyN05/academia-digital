@@ -119,8 +119,7 @@ header {
 .container-cards {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;  
-    
+    flex-wrap: wrap;   
 }
 
 .container-cards h2 {
@@ -227,6 +226,20 @@ header {
 }
 
 /*CURSOS*/
+
+.container-cursos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+}
+
+.container-cursos div h2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    font-size: 40px;
+}
+
 
 
 
