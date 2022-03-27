@@ -337,6 +337,64 @@ header {
 
 /*DOCENTES*/
 
+.container-docentes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+
+}
+
+.container-docentes h2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    font-size: 40px;
+}
+
+.content-docentes {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+.docentes-card {
+    height: 400px;
+    margin: 10px;
+    padding: 40px 10px;
+    border: 1px solid rgba(168, 168, 168, 0.486);
+    border-radius: 30px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.docentes-card:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 168, 168);
+    
+}
+
+.docentes-card img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.docentes-card h3 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.docentes-card p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 /*AQUI VAN LAS OPINIONES QUE TENES QUE HACER VALENTIN*/
 
 /*FOOTER*/
@@ -346,10 +404,11 @@ header {
      color: #ffffff;
      height: 400px;
      max-width: 100%;
-     margin-top: 150px;
      justify-items: center;
      display: flex;
-     justify-content: space-around
+     justify-content: space-evenly;
+
+
 }
 
 #contacto h2 {
