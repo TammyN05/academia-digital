@@ -270,12 +270,18 @@ header {
     height: 400px;
     margin: 10px;
     padding: 40px 10px;
-    border: 1px solid rgb(68, 68, 68);
+    border: 1px solid rgba(168, 168, 168, 0.486);
     border-radius: 5px;
     transform: scale(1);
     transition: transform 0.6s;
 }
 
+.cursos-card:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s;
+    border: 1px solid rgb(168, 168, 168);
+    
+}
 .cursos-card img {
     max-width: 200px;
     border-radius: 10px;
@@ -304,11 +310,10 @@ header {
 
 .galeria-divisoria{
     max-width: 100%;
-    height: 300px;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
-    
 }
 
 .container-galeria{
@@ -323,8 +328,13 @@ header {
     width: 25%;
     flex-direction: row;
     display: flex;
-
+    opacity: 0.7;
 }
+
+.container-galeria img:hover{
+    opacity: 1;
+}
+
 /*DOCENTES*/
 
 /*AQUI VAN LAS OPINIONES QUE TENES QUE HACER VALENTIN*/
