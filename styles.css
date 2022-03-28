@@ -471,3 +471,22 @@ input[type="submit"] {
     padding: 0;
     margin-bottom: 20px;
 }
+
+.iconos {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
